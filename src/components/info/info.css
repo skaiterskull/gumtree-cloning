@@ -1,0 +1,10 @@
+.info {
+  background: #ffb900;
+  padding: 0.5rem;
+  text-align: center;
+  width: 100vw;
+}
+
+.info a {
+  color: black;
+}
