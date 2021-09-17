@@ -15,7 +15,7 @@ div a:hover {
   display: flex;
   justify-content: center;
   align-items: center;
-  box-shadow: 5px darkgray;
+  box-shadow: 2px 2px 10px 1px grey;
 }
 
 .wrapper {
@@ -24,7 +24,7 @@ div a:hover {
 }
 
 .image-container {
-  background: grey;
+  background: #e9e7e7;
   width: 280px;
   height: 175px;
   display: flex;
