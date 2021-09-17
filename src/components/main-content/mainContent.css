@@ -1,3 +1,8 @@
-body {
-  background: #353535;
+.main-content-container {
+  background: #e9e7e7;
+  width: 100vw;
+  height: 600px;
+}
+
+.main-content {
 }

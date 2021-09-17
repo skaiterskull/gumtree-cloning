@@ -1,6 +1,53 @@
+div a {
+  text-decoration: none;
+  color: black;
+}
+
+div a:hover {
+  color: black;
+}
+
 .product-container {
+  position: relative;
+  width: 300px;
+  height: 250px;
+  background: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  box-shadow: 5px darkgray;
+}
+
+.wrapper {
+  width: 280px;
+  height: 230px;
 }
 
 .image-container {
   background: grey;
+  width: 280px;
+  height: 175px;
+  display: flex;
+  justify-content: center;
+}
+
+.product-description {
+  margin-top: 5px;
+}
+
+.location-and-fav {
+  display: flex;
+  justify-content: space-between;
+}
+
+.price {
+  position: absolute;
+  top: 110px;
+  left: 0;
+  background: black;
+  opacity: 0.8;
+  color: white;
+  font-size: 20px;
+  font-weight: bolder;
+  padding: 10px;
 }
