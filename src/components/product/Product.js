@@ -6,14 +6,7 @@ export const Product = () => {
   return (
     <a href="">
       <div className="product-container">
-        <div className="image-container">
-          <img src={product1} width="50%" alt="" />
-        </div>
-        <div className="description">
-          <div className="product-description">
-            Camera Canon FullHD with extra Lens
-          </div>
-        </div>
+        <div className="image-container"></div>
       </div>
     </a>
   );
