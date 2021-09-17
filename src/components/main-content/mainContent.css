@@ -1,0 +1,29 @@
+.main-content-container {
+  background: #e9e7e7;
+  width: 100vw;
+  height: 600px;
+  display: flex;
+  justify-content: center;
+}
+
+.main-content {
+  width: 1260px;
+  padding-top: 20px;
+  padding-left: 10px;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+}
+
+@media screen and (max-width: 1260px) {
+  .main-content {
+    width: 1000px;
+    grid-template-columns: 1fr 1fr 1fr;
+  }
+}
+
+@media screen and (max-width: 980px) {
+  .main-content {
+    width: 700px;
+    grid-template-columns: 1fr 1fr;
+  }
+}
