@@ -1,0 +1,89 @@
+.header-container {
+  width: 100vw;
+  background: #162432;
+  display: flex;
+  justify-content: center;
+  overflow-x: hidden;
+  position: relative;
+}
+
+.header-image {
+  min-width: 2000px;
+  height: 310px;
+}
+
+.header-menu {
+  position: absolute;
+  width: 1265px;
+  display: flex;
+  justify-content: space-between;
+  padding: 10px;
+  color: white;
+}
+
+.header-menu-left {
+  font-size: 30px;
+  font-weight: bolder;
+  color: white;
+}
+
+.header-menu-right {
+  border: none;
+  background: rgb(24, 243, 24);
+  color: white;
+  font-size: 16px;
+  font-weight: bolder;
+  padding-left: 30px;
+  padding-right: 30px;
+  padding-top: 15px;
+  padding-bottom: 15px;
+}
+
+.header-menu-right:hover {
+  background: green;
+}
+
+.middle-text {
+  color: white;
+  position: absolute;
+  top: 80px;
+  width: 700px;
+}
+
+.middle-text-left {
+  font-size: 30px;
+  font-weight: bolder;
+}
+.middle-text-right {
+  font-size: 20px;
+  font-weight: bolder;
+  position: absolute;
+  right: 60px;
+}
+
+@media screen and (max-width: 1400px) {
+  .header-image {
+    min-width: 1400px;
+    height: 250px;
+  }
+
+  .middle-text {
+    color: white;
+    position: absolute;
+    top: 80px;
+    width: 500px;
+  }
+
+  .middle-text-left {
+    font-size: 25px;
+  }
+  .middle-text-right {
+    font-size: 15px;
+  }
+}
+
+@media screen and (max-width: 1260px) {
+  .header-menu {
+    width: 100vw;
+  }
+}
