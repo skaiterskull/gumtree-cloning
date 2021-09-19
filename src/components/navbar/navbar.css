@@ -1,3 +1,9 @@
+.navbar-wrapper {
+  width: 100vw;
+  background: #2c2134;
+  display: flex;
+  justify-content: center;
+}
 div.navbar {
   width: 1265px;
   background: #2c2134;

@@ -27,43 +27,45 @@ export const Navbar = () => {
   ];
 
   return (
-    <div className="navbar">
-      <div className="menu-left">
-        <ul className="list-menu-left">
-          {leftMenu.map((value) => {
-            return <li>{value}</li>;
-          })}
-        </ul>
-      </div>
-      <div className="menu-right">
-        <ul className="list-menu-right">
-          {rightMenu.map((value) => {
-            return <li>{value}</li>;
-          })}
-        </ul>
-      </div>
-      <div className="menu-right1">
-        <ul className="list-menu-right1">
-          {rightMenu1.map((value) => {
-            return <li>{value}</li>;
-          })}
-        </ul>
-      </div>
-      <div className="menu-more">
-        <MenuDropdown menu="More" />
-        <ul className="list-menu-more">
-          {rightMenu1.map((value) => {
-            return <li>{value}</li>;
-          })}
-        </ul>
-      </div>
-      <div className="mobile-menu">
-        <ul className="list-mobile-menu">
-          {mobileMenu.map((value) => {
-            return <li>{value}</li>;
-          })}
-        </ul>
-        <div className="off-canvas">All</div>
+    <div className="navbar-wrapper">
+      <div className="navbar">
+        <div className="menu-left">
+          <ul className="list-menu-left">
+            {leftMenu.map((value) => {
+              return <li>{value}</li>;
+            })}
+          </ul>
+        </div>
+        <div className="menu-right">
+          <ul className="list-menu-right">
+            {rightMenu.map((value) => {
+              return <li>{value}</li>;
+            })}
+          </ul>
+        </div>
+        <div className="menu-right1">
+          <ul className="list-menu-right1">
+            {rightMenu1.map((value) => {
+              return <li>{value}</li>;
+            })}
+          </ul>
+        </div>
+        <div className="menu-more">
+          <MenuDropdown menu="More" />
+          <ul className="list-menu-more">
+            {rightMenu1.map((value) => {
+              return <li>{value}</li>;
+            })}
+          </ul>
+        </div>
+        <div className="mobile-menu">
+          <ul className="list-mobile-menu">
+            {mobileMenu.map((value) => {
+              return <li>{value}</li>;
+            })}
+          </ul>
+          <div className="off-canvas">All</div>
+        </div>
       </div>
     </div>
   );
